@@ -3,4 +3,4 @@ weight = float(input("What is your weight?"))
 
 bmi = weight / (height ** 2)
 
-print(bmi)
+print(round(bmi, 2))
